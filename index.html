@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme Generator Proyect</title>
+</head>
+<body>
+    <h1>
+        <span class="letter">Meme</span> 
+        <span class="letter">generator</span>
+        <span class="letter">proyect</span>
+    </h1>
+   
+    <!-- Todo esto es el formulario aqui aremos la mecanica -->
+    <form id="meme-form">
+        <!-- Boton de arriva texto -->
+        <label for="top-text">Top Text</label>
+        <input type="text" id="top-text" name="top-text">
+  
+        <!-- Boton de abajo texto -->
+        <label for="bottom-text">Bottom Text</label>
+        <input type="text" id="bottom-text" name="bottom-text">
+  
+        <!-- Aqui este boton es de tipo texto pero con el texto tomara el URL para mostrar una img. -->
+        <label for="image-url">Image URL</label>
+        <input type="text" id="image-url" name="image-url">
+  
+        <button type="submit">Create Meme</button>
+    </form>
+  
+    <!--  Aqui dentro de este DIV se generaran mas div asiendo nuetro meme. -->
+      <div id="meme-container"></div>
+    
+      <script src="app.js"></script>
+</body>
+</html>
