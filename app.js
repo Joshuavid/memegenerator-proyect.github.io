@@ -36,6 +36,7 @@ document.addEventListener('mousemove', function(e) {
     // console.log(color);
 })
 
+alert("Para la parte donde dice image URL, tienes que ir a google buscar una imagen y copias su image adress y pegas aqui y listo!! ");
 
 //Empesaremos poniendo un event en el form que es donde se ara la mecanica.
 form.addEventListener("submit", function(event) {
